@@ -68,6 +68,7 @@ class Unit3D(nn.Module):
         self._use_bias = use_bias
         self.name = name
         self.padding = padding
+
         
         self.conv3d = nn.Conv3d(in_channels=in_channels,
                                 out_channels=self._output_channels,
@@ -209,6 +210,7 @@ class InceptionI3d(nn.Module):
             raise ValueError('Unknown final endpoint %s' % final_endpoint)
 
         super(InceptionI3d, self).__init__()
+        self.last= None
         self._num_classes = num_classes
         self._spatial_squeeze = spatial_squeeze
         self._final_endpoint = final_endpoint
@@ -335,4 +337,8 @@ class InceptionI3d(nn.Module):
         for end_point in self.VALID_ENDPOINTS:
             if end_point in self.end_points:
                 x = self._modules[end_point](x)
-        return self.avg_pool(x)
+        if (x.shape[2]>1):
+            return self.avg_pool(x)
+        else:
+            return None
+ #       return self.avg_pool(x)

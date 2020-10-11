@@ -1,0 +1,18 @@
+﻿  compute_flow.cpp
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(66): warning C4305: “初始化”: 从“double”到“float”截断
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(68): warning C4305: “初始化”: 从“double”到“float”截断
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(89): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(231): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(233): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(320): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(321): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(323): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(324): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(115): warning C4101: “cad”: 未引用的局部变量
+d:\code\graphics\工具\gpu_flow\compute_flow.cpp(128): warning C4101: “entry”: 未引用的局部变量
+  正在生成代码
+  1 of 318 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  camera1.vcxproj -> D:\code\Graphics\工具\myflow\x64\Release\camera1.exe

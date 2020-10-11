@@ -1,0 +1,5 @@
+﻿  frame.cpp
+  main.cpp
+d:\code\graphics\ex1.camera\camera1\camera1\main.cpp(64): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+LINK : fatal error LNK1168: 无法打开 D:\code\Graphics\ex1.camera\camera1\x64\Debug\camera1.exe 进行写入
