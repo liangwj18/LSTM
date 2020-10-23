@@ -1,0 +1,5 @@
+data
+*.pyc
+*.pt
+pytorch-i3d/runs
+pytorch-i3d/__pycache__
